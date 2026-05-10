@@ -1,18 +1,33 @@
+[English](README.md) · **中文** · [日本語](README.ja.md) · [한국어](README.ko.md)
+
+<h1 align="center">logo2docs</h1>
+
 <p align="center">
-  <a href="README.md">English</a> · <a href="README.zh.md">中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a>
+  <em>「一个 LOGO，全套品牌文档。」</em><br>
+  <em>"One logo in. A complete branded document suite out."</em>
 </p>
 
-# logo2docs
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
+  <a href="https://skills.sh"><img src="https://img.shields.io/badge/skills.sh-Compatible-brightgreen" alt="skills.sh"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Agent-Agnostic-blueviolet" alt="Agent Agnostic"></a>
+</p>
 
-**一个 LOGO，全套品牌文档。**
+**上传公司 LOGO，自动提取品牌色，生成完整设计系统，一键产出 Excel / Word / PPT / HTML 演示文稿 / PDF / 流程图 / 手册。** 风格统一，开箱即用。不需要 Figma，不需要模板，不需要设计功底。
 
-上传公司 LOGO，自动提取品牌色，生成完整设计系统，然后一键产出 Excel / Word / PPT / HTML 演示文稿 / PDF / 流程图 / 手册——风格统一，开箱即用。
+生成的 PPT 是真正的 `.pptx` 文件 — 用 PowerPoint / WPS / Keynote 打开，随意修改。想要更酷炫的动效？选 HTML 模式。
+
+```
+npx skills add quzhi-ai/logo2docs
+```
+
+[看 Demo](#演示) · [安装](#安装) · [工作原理](#工作原理) · [设计原则](#设计原则) · [颜色科学](#颜色科学)
 
 ---
 
 ## 工作原理
 
-logo2docs 分两层：
+分两层：
 
 1. **品牌建立**（一次性）— 从 LOGO 提取颜色 → 3 个快速问题 → 生成完整设计系统 `brand-config.json`（40+ 设计 token）
 2. **文档生成**（按需）— 基于 brand-config.json 生成任意文档类型，品牌风格自动统一
@@ -33,30 +48,6 @@ logo2docs 分两层：
 | 流程图 / 架构图 | 内联 SVG | `.html` |
 | 手册 / 指南 | A4 分页 HTML | `.html` / `.pdf` |
 
-> **💡 生成的 PPT 完全可编辑** — 用 PowerPoint / WPS / Keynote 打开，随意修改文字、移动元素、增减页面。是真正的 `.pptx` 文件，不是图片。想要更酷炫的动效？选择 HTML 演示模式。
-
-## 快速开始
-
-### 安装技能
-
-```bash
-npx skills add https://github.com/quzhi-ai/logo2docs
-```
-
-或手动：克隆本仓库，将内容复制到 Claude Code 技能目录。
-
-### 使用
-
-直接告诉 Claude：
-
-> "这是我们公司的 LOGO。帮我建立品牌系统，然后生成一份季度报告 Excel。"
-
-Claude 会：
-1. 分析 LOGO 颜色
-2. 问 3 个问题（行业、风格偏好、现有品牌规范）
-3. 生成 `brand-config.json` — 完整设计系统
-4. 生成品牌风格统一的文档
-
 ### 从 2 个颜色生成什么
 
 | 类别 | 生成内容 | 用途 |
@@ -69,6 +60,28 @@ Claude 会：
 | 字体 | 标题、正文、等宽（web + office） | 跨格式字体统一 |
 | 布局 token | 边距、间距、圆角、阴影 | 空间一致性 |
 | CSS 变量 | 完整 `:root` 块 | HTML 即插即用 |
+
+---
+
+## 安装
+
+```bash
+npx skills add quzhi-ai/logo2docs
+```
+
+或手动：克隆本仓库，将内容复制到 Claude Code 技能目录。
+
+直接告诉 Claude：
+
+> "这是我们公司的 LOGO。帮我建立品牌系统，然后生成一份季度报告 Excel。"
+
+Claude 会：
+1. 分析 LOGO 颜色
+2. 问 3 个问题（行业、风格偏好、现有品牌规范）
+3. 生成 `brand-config.json` — 完整设计系统
+4. 生成品牌风格统一的文档
+
+---
 
 ## 设计原则
 
@@ -94,9 +107,9 @@ Claude 会：
 
 所有文字/背景组合均通过 WCAG AA 标准检查（最低 4.5:1 对比度）。
 
-## 演示
+---
 
-`demos/` 目录包含 2 个完整品牌演示：
+## 演示
 
 ### ABC 教育（Bold 风格）
 儿童教育机构 — 珊瑚红 + 青绿。Excel、Word、PPT、HTML 演示、流程图。
@@ -114,6 +127,16 @@ Claude 会：
 <img src="demos/screenshots/puye-01-cover.png" width="400"> <img src="demos/screenshots/puye-02-story.png" width="400"><br>
 <img src="demos/screenshots/puye-03-plans.png" width="400"> <img src="demos/screenshots/puye-04-data.png" width="400">
 </p>
+
+---
+
+## 颜色科学
+
+1. **提取**：LOGO 缩放至 150x150，16 阶量化，相似色聚类（距离 < 40），按频率排序
+2. **扩展**：从 2 个基础色通过 HSL 明度调整生成深浅变体，查找 WCAG 安全文字色，色相旋转生成图表系列
+3. **校验**：每组文字/背景对检查 WCAG AA 对比度（最低 4.5:1）
+
+---
 
 ## 文件结构
 
@@ -150,11 +173,7 @@ pdfplumber      # PDF 读取
 
 可选：[Playwright](https://playwright.dev/) 用于自动 HTML 转 PDF。没装也行，浏览器里 Ctrl+P 打印成 PDF 即可。
 
-## 颜色科学
-
-1. **提取**：LOGO 缩放至 150x150，16 阶量化，相似色聚类（距离 < 40），按频率排序
-2. **扩展**：从 2 个基础色通过 HSL 明度调整生成深浅变体，查找 WCAG 安全文字色，色相旋转生成图表系列
-3. **校验**：每组文字/背景对检查 WCAG AA 对比度（最低 4.5:1）
+---
 
 ## 支持项目
 
@@ -180,3 +199,8 @@ pdfplumber      # PDF 读取
 
 MIT — 见 [LICENSE](LICENSE)
 
+---
+
+<p align="center">
+  <a href="https://x.com/quzhiai"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-@quzhiai-black?logo=x&logoColor=white" alt="X / Twitter"></a>
+</p>

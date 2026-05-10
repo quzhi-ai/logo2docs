@@ -1,12 +1,24 @@
+[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md) · **한국어**
+
+<h1 align="center">logo2docs</h1>
+
 <p align="center">
-  <a href="README.md">English</a> · <a href="README.zh.md">中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a>
+  <em>「로고 하나로, 브랜드 통일 문서 스위트를 자동 생성.」</em>
 </p>
 
-# logo2docs
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
+  <a href="https://skills.sh"><img src="https://img.shields.io/badge/skills.sh-Compatible-brightgreen" alt="skills.sh"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Agent-Agnostic-blueviolet" alt="Agent Agnostic"></a>
+</p>
 
-**로고 하나로, 브랜드 통일 문서 스위트를 자동 생성.**
+**회사 로고를 업로드하면 브랜드 컬러를 자동 추출하고, 통일된 디자인의 Excel / Word / PowerPoint / HTML 슬라이드 / PDF / 플로차트 / 핸드북을 한 번에 생성합니다.** Figma 불필요, 템플릿 불필요, 디자인 스킬 불필요.
 
-회사 로고를 업로드하면 브랜드 컬러를 자동 추출하고, 통일된 디자인의 Excel / Word / PowerPoint / HTML 슬라이드 / PDF / 플로차트 / 핸드북을 한 번에 생성합니다.
+PowerPoint 파일은 진짜 `.pptx` — PowerPoint / Keynote에서 자유롭게 편집 가능. 더 화려한 애니메이션을 원하면 HTML 모드를 선택하세요.
+
+```
+npx skills add quzhi-ai/logo2docs
+```
 
 ---
 
@@ -121,4 +133,10 @@ logo2docs가 도움이 되셨다면, 커피 한 잔 사주세요:
 ## 라이선스
 
 MIT — [LICENSE](LICENSE) 참조
+
+---
+
+<p align="center">
+  <a href="https://x.com/quzhiai"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-@quzhiai-black?logo=x&logoColor=white" alt="X / Twitter"></a>
+</p>
 
