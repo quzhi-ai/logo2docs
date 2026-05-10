@@ -35,6 +35,8 @@ Upload logo → Extract colors → 3 questions → brand-config.json → Any doc
 | Flowchart / diagram | Inline SVG | `.html` |
 | Handbook / manual | Paginated A4 HTML | `.html` / `.pdf` |
 
+> **💡 PowerPoint files are fully editable** — open in PowerPoint / Google Slides / Keynote, change text, move elements, add slides. It's a real `.pptx`, not a flat image. Want cinematic transitions and scroll animations instead? Choose HTML presentation mode.
+
 ## Quick Start
 
 ### Install the skill
