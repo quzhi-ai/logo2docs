@@ -100,16 +100,28 @@ All text-on-background combinations are checked against WCAG AA standards (4.5:1
 Three complete brand demos are included in the `demos/` directory:
 
 ### ABC Education (Bold style)
-Children's education company — coral red + teal
-- Excel (enrollment data), Word (summer camp proposal), PowerPoint, HTML slides, flowchart
+Children's education company — coral red + teal. Excel, Word, PowerPoint, HTML slides, flowchart.
+
+<p align="center">
+<img src="demos/screenshots/abc-01-cover.png" width="400"> <img src="demos/screenshots/abc-02-content.png" width="400"><br>
+<img src="demos/screenshots/abc-03-data.png" width="400"> <img src="demos/screenshots/abc-04-preview.png" width="400">
+</p>
 
 ### NovaStar Tech (Modern style)
-AI/edge computing startup — electric blue + purple
-- HTML slides (product launch), flowchart (CI/CD pipeline)
+AI/edge computing startup — electric blue + purple. HTML slides, flowchart.
+
+<p align="center">
+<img src="demos/screenshots/nova-01-cover.png" width="400"> <img src="demos/screenshots/nova-02-content.png" width="400"><br>
+<img src="demos/screenshots/nova-03-data.png" width="400"> <img src="demos/screenshots/nova-04-flowchart.png" width="400">
+</p>
 
 ### PuYe Wellness (Elegant style)
-Premium wellness tea brand — olive green + warm apricot
-- PowerPoint (franchise handbook), HTML handbook (8-page A4)
+Premium wellness tea brand — olive green + warm apricot. PowerPoint, HTML handbook (8-page A4).
+
+<p align="center">
+<img src="demos/screenshots/puye-01-cover.png" width="400"> <img src="demos/screenshots/puye-02-story.png" width="400"><br>
+<img src="demos/screenshots/puye-03-plans.png" width="400"> <img src="demos/screenshots/puye-04-data.png" width="400">
+</p>
 
 ## File Structure
 

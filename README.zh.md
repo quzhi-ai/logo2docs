@@ -99,16 +99,28 @@ Claude 会：
 `demos/` 目录包含 3 个完整品牌演示：
 
 ### ABC 教育（Bold 风格）
-儿童教育机构 — 珊瑚红 + 青绿
-- Excel（招生数据）、Word（夏令营方案）、PPT、HTML 演示、流程图
+儿童教育机构 — 珊瑚红 + 青绿。Excel、Word、PPT、HTML 演示、流程图。
+
+<p align="center">
+<img src="demos/screenshots/abc-01-cover.png" width="400"> <img src="demos/screenshots/abc-02-content.png" width="400"><br>
+<img src="demos/screenshots/abc-03-data.png" width="400"> <img src="demos/screenshots/abc-04-preview.png" width="400">
+</p>
 
 ### NovaStar Tech（Modern 风格）
-AI / 边缘计算初创 — 电光蓝 + 紫色
-- HTML 演示（产品发布会）、流程图（CI/CD 流水线）
+AI / 边缘计算初创 — 电光蓝 + 紫色。HTML 演示、流程图。
+
+<p align="center">
+<img src="demos/screenshots/nova-01-cover.png" width="400"> <img src="demos/screenshots/nova-02-content.png" width="400"><br>
+<img src="demos/screenshots/nova-03-data.png" width="400"> <img src="demos/screenshots/nova-04-flowchart.png" width="400">
+</p>
 
 ### 朴叶堂（Elegant 风格）
-高端养生茶品牌 — 橄榄绿 + 暖杏色
-- PPT（品牌加盟手册）、HTML 手册（8 页 A4）
+高端养生茶品牌 — 橄榄绿 + 暖杏色。PPT、HTML 手册（8 页 A4）。
+
+<p align="center">
+<img src="demos/screenshots/puye-01-cover.png" width="400"> <img src="demos/screenshots/puye-02-story.png" width="400"><br>
+<img src="demos/screenshots/puye-03-plans.png" width="400"> <img src="demos/screenshots/puye-04-data.png" width="400">
+</p>
 
 ## 文件结构
 
