@@ -6,6 +6,10 @@ One logo in, consistently branded Excel / Word / PowerPoint / HTML slides / PDF 
 
 > A Claude Code skill by [曲直](https://github.com/quzhi-ai)
 
+<p align="center">
+  <img src="demos/showcase.gif" alt="logo2docs demo — 3 brands, 7 formats" width="800">
+</p>
+
 ---
 
 ## What It Does

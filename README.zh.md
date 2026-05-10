@@ -6,6 +6,10 @@
 
 > Claude Code 技能，作者 [曲直](https://github.com/quzhi-ai)
 
+<p align="center">
+  <img src="demos/showcase.gif" alt="logo2docs 演示 — 3 个品牌, 7 种格式" width="800">
+</p>
+
 ---
 
 ## 工作原理
