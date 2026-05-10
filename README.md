@@ -8,10 +8,6 @@
 
 One logo in, consistently branded Excel / Word / PowerPoint / HTML slides / PDF / flowcharts / handbooks out.
 
-<p align="center">
-  <img src="demos/showcase.gif" alt="logo2docs demo — 2 brands, 7 formats" width="800">
-</p>
-
 ---
 
 ## What It Does

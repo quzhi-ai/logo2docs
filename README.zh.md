@@ -8,10 +8,6 @@
 
 上传公司 LOGO，自动提取品牌色，生成完整设计系统，然后一键产出 Excel / Word / PPT / HTML 演示文稿 / PDF / 流程图 / 手册——风格统一，开箱即用。
 
-<p align="center">
-  <img src="demos/showcase.gif" alt="logo2docs 演示 — 2 个品牌, 7 种格式" width="800">
-</p>
-
 ---
 
 ## 工作原理

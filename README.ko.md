@@ -8,10 +8,6 @@
 
 회사 로고를 업로드하면 브랜드 컬러를 자동 추출하고, 통일된 디자인의 Excel / Word / PowerPoint / HTML 슬라이드 / PDF / 플로차트 / 핸드북을 한 번에 생성합니다.
 
-<p align="center">
-  <img src="demos/showcase.gif" alt="logo2docs 데모 — 2개 브랜드, 7가지 포맷" width="800">
-</p>
-
 ---
 
 ## 작동 방식

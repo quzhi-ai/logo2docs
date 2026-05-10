@@ -8,10 +8,6 @@
 
 会社のロゴをアップロードするだけで、ブランドカラーを自動抽出し、統一デザインの Excel / Word / PowerPoint / HTMLスライド / PDF / フローチャート / マニュアルを一括生成。
 
-<p align="center">
-  <img src="demos/showcase.gif" alt="logo2docs デモ — 2ブランド、7フォーマット" width="800">
-</p>
-
 ---
 
 ## 仕組み
