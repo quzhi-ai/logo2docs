@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+*.egg-info/
+dist/
+build/
+.env
+node_modules/
+brand-assets/

@@ -1,0 +1,23 @@
+{
+  "name": "quzhi-ai-logo2docs",
+  "version": "1.0.0",
+  "description": "Turn any company logo into a complete branded document suite — Excel, Word, PPT, HTML slides, PDF, flowcharts, handbooks",
+  "author": "曲直 (Justin Qu)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quzhi-ai/logo2docs"
+  },
+  "keywords": [
+    "claude-code",
+    "skill",
+    "brand",
+    "design-system",
+    "document-generation",
+    "office",
+    "excel",
+    "word",
+    "powerpoint",
+    "pdf"
+  ]
+}

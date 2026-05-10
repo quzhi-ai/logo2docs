@@ -1,0 +1,23 @@
+{
+  "skill_name": "brand-office-suite",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I just started a small logistics company called FastRoute. Here's our logo (it's a blue and orange design). I need to create a branded quarterly report in Excel with revenue data by region, and also a Word document summarizing our Q1 performance for the board. Can you help me set up our brand system and generate these?",
+      "expected_output": "Should: (1) ask for the logo file, (2) extract colors from it, (3) run brand interview, (4) generate brand-config.json, (5) show preview, (6) generate both Excel and Word files using consistent brand tokens, (7) run brand check on outputs",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We already have strict brand guidelines — our primary color is #1B4D72, secondary is #E8A838, and we use Montserrat for headings and Open Sans for body text. We need a PPT deck (about 10 slides) for our annual company meeting. The deck should cover: company mission, 2024 highlights, financial overview, team growth, product roadmap, and closing slide. Oh and here's our logo.",
+      "expected_output": "Should: (1) skip color extraction since user provided exact colors, (2) respect specified fonts, (3) generate brand-config.json with user-specified values, (4) create a 10-slide PPT with proper branded styling, (5) cover/section/content/data slides all consistent, (6) no AI aesthetic clichés",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I run a boutique consulting firm. I don't have a logo yet, but I want my documents to feel elegant and refined. Can you help me create a brand system anyway? And then make me a client proposal template in PDF format.",
+      "expected_output": "Should: (1) handle no-logo gracefully, (2) ask user for preferred colors or suggest elegant palette options, (3) use 'elegant' style preset, (4) generate brand-config.json without logo, (5) generate HTML→PDF proposal template with text-based company name instead of logo, (6) include proper print styles",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "company_name": "ABC 公司",
+    "industry": "children-education",
+    "style": "bold",
+    "generated_at": "2026-05-10T13:04:00.676681",
+    "generator": "brand-office-suite"
+  },
+  "logo": {
+    "color_path": "brand-assets/logo-color.png",
+    "white_path": "brand-assets/logo-white.png",
+    "aspect_ratio": 1.0,
+    "has_white_version": false,
+    "base64_color": "(stripped for demo — run embed-logo to populate)",
+    "base64_white": null,
+    "safe_zone_ratio": 0.5,
+    "primary_luminance": 0.2747
+  },
+  "colors": {
+    "primary": "#f06050",
+    "primary_dark": "#b01f0f",
+    "primary_light": "#fbdcd9",
+    "secondary": "#10c0c0",
+    "secondary_dark": "#097373",
+    "secondary_light": "#d9fbfb",
+    "text": {
+      "primary": "#2d3748",
+      "secondary": "#4a5568",
+      "muted": "#8896a6",
+      "on_primary": "#ffffff",
+      "on_secondary": "#ffffff"
+    },
+    "background": {
+      "page": "#f7f6f6",
+      "card": "#ffffff",
+      "subtle": "#fbdcd9"
+    },
+    "border": "#e2e8f0",
+    "functional": {
+      "success": "#16a34a",
+      "warning": "#d97706",
+      "error": "#dc2626",
+      "info": "#f06050"
+    },
+    "chart_series": [
+      "#f06050",
+      "#10c0c0",
+      "#c8c11c",
+      "#3cc81c",
+      "#1cc890",
+      "#1c6dc8"
+    ]
+  },
+  "typography": {
+    "heading": {
+      "family_web": "'Montserrat', 'Arial Black', sans-serif",
+      "family_office": "Arial Black",
+      "weight": 800
+    },
+    "body": {
+      "family_web": "'Noto Sans', 'Segoe UI', sans-serif",
+      "family_office": "Calibri",
+      "weight": 400
+    },
+    "mono": {
+      "family": "Consolas, 'Courier New', monospace"
+    }
+  },
+  "layout": {
+    "max_content_width": "1100px",
+    "page_margin_cm": 2.5,
+    "section_gap": "32px",
+    "paragraph_gap": "16px",
+    "border_radius": "6px",
+    "shadow": "0 1px 3px rgba(0,0,0,0.06)"
+  },
+  "html": {
+    "css_variables": {
+      "--brand-primary": "#f06050",
+      "--brand-primary-dark": "#b01f0f",
+      "--brand-primary-light": "#fbdcd9",
+      "--brand-secondary": "#10c0c0",
+      "--brand-secondary-dark": "#097373",
+      "--brand-secondary-light": "#d9fbfb",
+      "--text-primary": "#2d3748",
+      "--text-secondary": "#4a5568",
+      "--text-muted": "#8896a6",
+      "--bg-page": "#f7f6f6",
+      "--bg-card": "#ffffff",
+      "--border-color": "#e2e8f0",
+      "--radius-md": "6px",
+      "--shadow-card": "0 1px 3px rgba(0,0,0,0.06)"
+    }
+  },
+  "tables": {
+    "header_bg": "#f06050",
+    "header_text": "#ffffff",
+    "row_alt_bg": "#f7f6f6",
+    "row_bg": "#ffffff",
+    "border_color": "#e2e8f0",
+    "border_style": "horizontal_only"
+  },
+  "charts": {
+    "max_pie_slices": 5,
+    "line_width_px": 2,
+    "data_point_radius_px": 4,
+    "max_lines_per_chart": 4,
+    "series_colors": [
+      "#f06050",
+      "#10c0c0",
+      "#c8c11c",
+      "#3cc81c",
+      "#1cc890",
+      "#1c6dc8"
+    ]
+  }
+}
