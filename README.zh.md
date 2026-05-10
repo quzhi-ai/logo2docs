@@ -8,10 +8,8 @@
 
 上传公司 LOGO，自动提取品牌色，生成完整设计系统，然后一键产出 Excel / Word / PPT / HTML 演示文稿 / PDF / 流程图 / 手册——风格统一，开箱即用。
 
-> Claude Code 技能，作者 [曲直](https://github.com/quzhi-ai)
-
 <p align="center">
-  <img src="demos/showcase.gif" alt="logo2docs 演示 — 3 个品牌, 7 种格式" width="800">
+  <img src="demos/showcase.gif" alt="logo2docs 演示 — 2 个品牌, 7 种格式" width="800">
 </p>
 
 ---
@@ -102,7 +100,7 @@ Claude 会：
 
 ## 演示
 
-`demos/` 目录包含 3 个完整品牌演示：
+`demos/` 目录包含 2 个完整品牌演示：
 
 ### ABC 教育（Bold 风格）
 儿童教育机构 — 珊瑚红 + 青绿。Excel、Word、PPT、HTML 演示、流程图。
@@ -111,14 +109,6 @@ Claude 会：
 <img src="demos/screenshots/abc-01-cover.png" width="400"> <img src="demos/screenshots/abc-02-content.png" width="400"><br>
 <img src="demos/screenshots/abc-05-excel.png" width="400"> <img src="demos/screenshots/abc-06-word.png" width="400"><br>
 <img src="demos/screenshots/abc-03-data.png" width="400"> <img src="demos/screenshots/abc-04-preview.png" width="400">
-</p>
-
-### NovaStar Tech（Modern 风格）
-AI / 边缘计算初创 — 电光蓝 + 紫色。HTML 演示、流程图。
-
-<p align="center">
-<img src="demos/screenshots/nova-01-cover.png" width="400"> <img src="demos/screenshots/nova-02-content.png" width="400"><br>
-<img src="demos/screenshots/nova-03-data.png" width="400"> <img src="demos/screenshots/nova-04-flowchart.png" width="400">
 </p>
 
 ### 朴叶堂（Elegant 风格）
@@ -146,7 +136,6 @@ logo2docs/
 │   └── evals.json        # 评估提示词
 └── demos/
     ├── abc-education/     # Bold 风格演示
-    ├── novastar-tech/     # Modern 风格演示
     └── puye-wellness/     # Elegant 风格演示
 ```
 
@@ -195,6 +184,3 @@ pdfplumber      # PDF 读取
 
 MIT — 见 [LICENSE](LICENSE)
 
-## 作者
-
-**曲直** (Justin Qu)

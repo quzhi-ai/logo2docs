@@ -8,10 +8,8 @@
 
 会社のロゴをアップロードするだけで、ブランドカラーを自動抽出し、統一デザインの Excel / Word / PowerPoint / HTMLスライド / PDF / フローチャート / マニュアルを一括生成。
 
-> Claude Code スキル — 作者 [曲直](https://github.com/quzhi-ai)
-
 <p align="center">
-  <img src="demos/showcase.gif" alt="logo2docs デモ — 3ブランド、7フォーマット" width="800">
+  <img src="demos/showcase.gif" alt="logo2docs デモ — 2ブランド、7フォーマット" width="800">
 </p>
 
 ---
@@ -85,7 +83,7 @@ Claudeが自動的に：
 
 ## デモ
 
-`demos/` ディレクトリに3つの完全なブランドデモが含まれています：
+`demos/` ディレクトリに2つの完全なブランドデモが含まれています：
 
 ### ABC Education（ボールドスタイル）
 子ども教育企業 — コーラルレッド + ティール。Excel、Word、PowerPoint、HTMLスライド、フローチャート。
@@ -94,14 +92,6 @@ Claudeが自動的に：
 <img src="demos/screenshots/abc-01-cover.png" width="400"> <img src="demos/screenshots/abc-02-content.png" width="400"><br>
 <img src="demos/screenshots/abc-05-excel.png" width="400"> <img src="demos/screenshots/abc-06-word.png" width="400"><br>
 <img src="demos/screenshots/abc-03-data.png" width="400"> <img src="demos/screenshots/abc-04-preview.png" width="400">
-</p>
-
-### NovaStar Tech（モダンスタイル）
-AI/エッジコンピューティングスタートアップ — エレクトリックブルー + パープル。HTMLスライド、フローチャート。
-
-<p align="center">
-<img src="demos/screenshots/nova-01-cover.png" width="400"> <img src="demos/screenshots/nova-02-content.png" width="400"><br>
-<img src="demos/screenshots/nova-03-data.png" width="400"> <img src="demos/screenshots/nova-04-flowchart.png" width="400">
 </p>
 
 ### 朴叶堂（エレガントスタイル）
@@ -136,6 +126,3 @@ logo2docs が役に立ったら、コーヒーをおごってください：
 
 MIT — [LICENSE](LICENSE) を参照
 
-## 作者
-
-**曲直** (Justin Qu)

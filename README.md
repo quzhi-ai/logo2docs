@@ -8,10 +8,8 @@
 
 One logo in, consistently branded Excel / Word / PowerPoint / HTML slides / PDF / flowcharts / handbooks out.
 
-> A Claude Code skill by [曲直](https://github.com/quzhi-ai)
-
 <p align="center">
-  <img src="demos/showcase.gif" alt="logo2docs demo — 3 brands, 7 formats" width="800">
+  <img src="demos/showcase.gif" alt="logo2docs demo — 2 brands, 7 formats" width="800">
 </p>
 
 ---
@@ -103,7 +101,7 @@ All text-on-background combinations are checked against WCAG AA standards (4.5:1
 
 ## Demos
 
-Three complete brand demos are included in the `demos/` directory:
+Two complete brand demos are included in the `demos/` directory:
 
 ### ABC Education (Bold style)
 Children's education company — coral red + teal. Excel, Word, PowerPoint, HTML slides, flowchart.
@@ -112,14 +110,6 @@ Children's education company — coral red + teal. Excel, Word, PowerPoint, HTML
 <img src="demos/screenshots/abc-01-cover.png" width="400"> <img src="demos/screenshots/abc-02-content.png" width="400"><br>
 <img src="demos/screenshots/abc-05-excel.png" width="400"> <img src="demos/screenshots/abc-06-word.png" width="400"><br>
 <img src="demos/screenshots/abc-03-data.png" width="400"> <img src="demos/screenshots/abc-04-preview.png" width="400">
-</p>
-
-### NovaStar Tech (Modern style)
-AI/edge computing startup — electric blue + purple. HTML slides, flowchart.
-
-<p align="center">
-<img src="demos/screenshots/nova-01-cover.png" width="400"> <img src="demos/screenshots/nova-02-content.png" width="400"><br>
-<img src="demos/screenshots/nova-03-data.png" width="400"> <img src="demos/screenshots/nova-04-flowchart.png" width="400">
 </p>
 
 ### PuYe Wellness (Elegant style)
@@ -147,7 +137,6 @@ logo2docs/
 │   └── evals.json        # Evaluation prompts
 └── demos/
     ├── abc-education/     # Bold style demo
-    ├── novastar-tech/     # Modern style demo
     └── puye-wellness/     # Elegant style demo
 ```
 
@@ -200,6 +189,3 @@ If logo2docs has been helpful, consider buying the author a coffee:
 
 MIT — see [LICENSE](LICENSE)
 
-## Author
-
-**曲直** (Justin Qu)

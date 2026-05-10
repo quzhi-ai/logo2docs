@@ -8,10 +8,8 @@
 
 회사 로고를 업로드하면 브랜드 컬러를 자동 추출하고, 통일된 디자인의 Excel / Word / PowerPoint / HTML 슬라이드 / PDF / 플로차트 / 핸드북을 한 번에 생성합니다.
 
-> Claude Code 스킬 — 작성자 [曲直](https://github.com/quzhi-ai)
-
 <p align="center">
-  <img src="demos/showcase.gif" alt="logo2docs 데모 — 3개 브랜드, 7가지 포맷" width="800">
+  <img src="demos/showcase.gif" alt="logo2docs 데모 — 2개 브랜드, 7가지 포맷" width="800">
 </p>
 
 ---
@@ -85,7 +83,7 @@ Claude가 자동으로:
 
 ## 데모
 
-`demos/` 디렉토리에 3개의 완전한 브랜드 데모가 포함되어 있습니다:
+`demos/` 디렉토리에 2개의 완전한 브랜드 데모가 포함되어 있습니다:
 
 ### ABC Education (볼드 스타일)
 어린이 교육 기업 — 코럴 레드 + 틸. Excel, Word, PowerPoint, HTML 슬라이드, 플로차트.
@@ -94,14 +92,6 @@ Claude가 자동으로:
 <img src="demos/screenshots/abc-01-cover.png" width="400"> <img src="demos/screenshots/abc-02-content.png" width="400"><br>
 <img src="demos/screenshots/abc-05-excel.png" width="400"> <img src="demos/screenshots/abc-06-word.png" width="400"><br>
 <img src="demos/screenshots/abc-03-data.png" width="400"> <img src="demos/screenshots/abc-04-preview.png" width="400">
-</p>
-
-### NovaStar Tech (모던 스타일)
-AI/엣지 컴퓨팅 스타트업 — 일렉트릭 블루 + 퍼플. HTML 슬라이드, 플로차트.
-
-<p align="center">
-<img src="demos/screenshots/nova-01-cover.png" width="400"> <img src="demos/screenshots/nova-02-content.png" width="400"><br>
-<img src="demos/screenshots/nova-03-data.png" width="400"> <img src="demos/screenshots/nova-04-flowchart.png" width="400">
 </p>
 
 ### 朴叶堂 (엘레강트 스타일)
@@ -136,6 +126,3 @@ logo2docs가 도움이 되셨다면, 커피 한 잔 사주세요:
 
 MIT — [LICENSE](LICENSE) 참조
 
-## 작성자
-
-**曲直** (Justin Qu)
