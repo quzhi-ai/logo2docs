@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="README.md">English</a> · <a href="README.zh.md">中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a>
+</p>
+
 # logo2docs
 
 **Turn any company logo into a complete branded document suite.**
@@ -172,10 +176,30 @@ Optional: [Playwright](https://playwright.dev/) for automatic HTML-to-PDF conver
 
 MIT — see [LICENSE](LICENSE)
 
+## Support the Project
+
+If logo2docs has been helpful, consider buying the author a coffee:
+
+| WeChat Pay | Alipay |
+|:---:|:---:|
+| <img src="demos/donate/wechat-pay.jpg" width="200"> | <img src="demos/donate/alipay.jpg" width="200"> |
+
+## Star History
+
+<p align="center">
+  <a href="https://star-history.com/#quzhi-ai/logo2docs&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=quzhi-ai/logo2docs&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=quzhi-ai/logo2docs&type=Date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=quzhi-ai/logo2docs&type=Date" width="600" />
+    </picture>
+  </a>
+</p>
+
+## License
+
+MIT — see [LICENSE](LICENSE)
+
 ## Author
 
 **曲直** (Justin Qu)
-
----
-
-*[中文文档](README.zh.md)*

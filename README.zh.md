@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="README.md">English</a> · <a href="README.zh.md">中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a>
+</p>
+
 # logo2docs
 
 **一个 LOGO，全套品牌文档。**
@@ -167,6 +171,26 @@ pdfplumber      # PDF 读取
 2. **扩展**：从 2 个基础色通过 HSL 明度调整生成深浅变体，查找 WCAG 安全文字色，色相旋转生成图表系列
 3. **校验**：每组文字/背景对检查 WCAG AA 对比度（最低 4.5:1）
 
+## 支持项目
+
+如果 logo2docs 对你有帮助，可以请作者喝杯咖啡：
+
+| 微信支付 | 支付宝 |
+|:---:|:---:|
+| <img src="demos/donate/wechat-pay.jpg" width="200"> | <img src="demos/donate/alipay.jpg" width="200"> |
+
+## Star History
+
+<p align="center">
+  <a href="https://star-history.com/#quzhi-ai/logo2docs&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=quzhi-ai/logo2docs&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=quzhi-ai/logo2docs&type=Date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=quzhi-ai/logo2docs&type=Date" width="600" />
+    </picture>
+  </a>
+</p>
+
 ## 许可证
 
 MIT — 见 [LICENSE](LICENSE)
@@ -174,7 +198,3 @@ MIT — 见 [LICENSE](LICENSE)
 ## 作者
 
 **曲直** (Justin Qu)
-
----
-
-*[English README](README.md)*
